@@ -1,0 +1,11 @@
+
+body {
+  z-index: 1;
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(165deg, #35044a, #4a0409);
+  justify-content: center;
+}
+
