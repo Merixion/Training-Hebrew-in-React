@@ -5,6 +5,7 @@
   position: absolute;
   z-index: 10;
   top: 50%;
+  border-radius: 2%;
  
   transform: translate(-25%, -50%);
   height: 90vh;
@@ -25,12 +26,19 @@
 }
 
 .standart{
-  background: blue;
+  background: linear-gradient(134deg, #4800ff, #00d9ff);
 }
 
 .correct{
-  background: green;
+  background: linear-gradient(134deg, #00ff00, #2a5e00);
 }
 .notCorrect{
-  background: red;
+  background: linear-gradient(134deg, #ff0000, #fc5656);
+}
+
+.counts{
+  left: 5px
+}
+.rest{
+  right: 5px;
 }
